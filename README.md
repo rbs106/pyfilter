@@ -4,11 +4,13 @@ Message filter.
 
 # Installation
 
-pip install sussy-baka-kid
+pip install pyfilter-rbs
 
-#Usage
+# Usage
 ```
 import pyfilter-rbs
 
-filter(<words_list>, <to_filter>, <filt_to>)
+filter(<words_list>, <to_filter>, <filt_to>, <do_output>)
+
+# do_output ( 'off'/'on' )
 ```
